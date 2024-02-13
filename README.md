@@ -1,4 +1,4 @@
-# Dashboard financeiro
+# DASHBOARD FINANCEIRO
 Projeto de um dashboard financeiro criado para visualizar informações em gráficos e cards na tela.
 
 Para criação dessa aplicação utilizei HTML, CSS, boostrap, chartjs e javascript.
@@ -15,7 +15,8 @@ https://www.chartjs.org/
 
 https://www.youtube.com/watch?v=FpGaoNpgscg
 
-# Na página são essas as informações que iram aparecer 
+# No dashboard são essas as informações que iram aparecer 
+
 1- menu lateral
 
 2- header com campo de pesquisa, esconder menu, informações do usuário.
