@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Dashboard Finaceiro</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+   </head>
+
+	<body>
+		<div class="wrapper">
+			<div class="body-overlay"></div>			
+			<div id="sidebar">
+
+<!----------------- Logo do menu--------------------->
+				<div class="sidebar-header">
+				     <h3><img src="img/logo.png" class="img-fluid"/><span>Financeiro</span></h3>
+				</div>
+
+<!------------ Menu de informações------------------>
+				<ul class="list-unstyled component m-0">
+				  <li class="active">
+				      <a href="#" class="dashboard"><i class="material-icons">dashboard</i>Dashboard </a>
+				  </li>
+				
+				<li class="dropdown">
+				   <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" 
+				     class="dropdown-toggle">
+				     <i class="material-icons">equalizer</i>Periodo
+				   </a>
+				  <ul class="collapse list-unstyled menu" id="homeSubmenu1">
+						<li><a href="#">Mensal</a></li>
+						<li><a href="#">Trimestral</a></li>
+						<li><a href="#">Anual</a></li>
+				  </ul>
+				</li>
+				
+				<li class="dropdown">
+				   <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" 
+				     class="dropdown-toggle">
+				     <i class="material-icons">border_color</i>forms
+				   </a>
+					<ul class="collapse list-unstyled menu" id="homeSubmenu5">
+						<li><a href="#">Pages 1</a></li>
+						<li><a href="#">Pages 2</a></li>
+						<li><a href="#">Pages 3</a></li>
+					</ul>
+				</li>		  	
+			</div>
+	
+<!--------------------------Recolher e avançar menu------------------------->
+			<div id="content">					
+				<div class="top-navbar">
+					<div class="xd-topbar">
+						<div class="row">
+							<div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+								<div class="xp-menubar">
+									<span class="material-icons text-white">signal_cellular_alt</span>
+								</div>
+							</div>
+							
+<!----------------------- Fazer pesquisa de notas------------------------->
+							<div class="col-md-5 col-lg-3 order-3 order-md-2">
+								<div class="xp-searchbar">
+									<form>
+										<div class="input-group">
+										<input type="search" style="background-color: #F5F5F5;" class="form-control"
+										placeholder="Pesquisar">
+										<div class="input-group-append">
+											<button class="btn" style="background-color: #F5F5F5; color: black;" type="submit" id="button-addon2">Ok
+											</button>
+										</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							
+<!----------------------------------- Notificações de msg------------------------------->
+							<div class="col-10 col-md-6 col-lg-8 order-1 order-md-3">
+								<div class="xp-profilebar text-right">
+									<nav class="navbar p-0">
+									<ul class="nav navbar-nav flex-row ml-auto">
+									<li class="dropdown nav-item active">
+										<a class="nav-link" href="#" data-toggle="dropdown">
+										<span class="material-icons">notifications</span>
+										<span class="notification">4</span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="#">You Have 4 New Messages</a></li>
+											<li><a href="#">You Have 4 New Messages</a></li>
+											<li><a href="#">You Have 4 New Messages</a></li>
+											<li><a href="#">You Have 4 New Messages</a></li>
+										</ul>
+									</li>
+									
+									<li class="nav-item">
+										<a class="nav-link" href="#">
+										<span class="material-icons">question_answer</span>
+										</a>
+									</li>
+									
+<!-------------------------------- Foto do usuário e configurações--------------------------->
+									<li class="dropdown nav-item">
+										<a class="nav-link" href="#" data-toggle="dropdown">
+										<img src="img/foto.png" style="width:40px; border-radius:50%;"/>
+										<span class="xp-user-live"></span>
+										</a>
+										<ul class="dropdown-menu small-menu">
+											<li><a href="#">
+											<span class="material-icons">person_outline</span>
+											Perfil
+											</a></li>
+											<li><a href="#">
+											<span class="material-icons">settings</span>
+											Configurações
+											</a></li>
+											<li><a href="#">
+											<span class="material-icons">logout</span>
+											Log
+											</a></li>								
+										</ul>
+									</li>				
+									</ul>
+									</nav>
+								</div>
+							</div>			
+						</div>					
+						<div class="xp-breadcrumbbar text-center">
+							<h4 class="page-title">Dashboard</h4>						
+						</div>					
+					</div>
+					</div>
+
+<!------------------------------------ Cards com informações de notas------------------------------------------>
+				<div class="container-fluid px-1" style="text-align: center;">
+					<div class="row g-3 my-2">
+						<div class="col-md-2">
+							<div style="border-radius: 10px; background-color:#63B8FF; padding: 5px;">
+								<div>
+									<h3 class="fs-2">1100,00 R$</h3>
+									<p class="fs-5">Notas emitidas</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-2">
+							<div style="border-radius: 10px; background-color: #CFCFCF; padding: 5px;">
+								<div>
+									<h3 class="fs-2">200,00 R$</h3>
+									<p class="fs-5">Sem cobrança</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-2">
+							<div style="border-radius: 10px; background-color: #CD5B45; padding: 5px;">
+								<div>
+									<h3 class="fs-2">300,00 R$</h3>
+									<p class="fs-5">Vencidas</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-2">
+							<div style="border-radius: 10px; background-color: #FFD700; padding: 5px;">
+								<div>
+									<h3 class="fs-2">100,00 R$</h3>
+									<p class="fs-5">A vencer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-2">
+							<div style="border-radius: 10px; background-color: #43CD80; padding: 5px;">
+								<div>
+									<h3 class="fs-2">500,00 R$</h3>
+									<p class="fs-5" style="text-align: center;">Pagas</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				
+<!-------------------------------- Informações de receita e inadimplência em Gráfico------------------------------>
+				<div style="width: 400px; display: inline-block;">
+					<canvas id="receita"></canvas>
+				</div>
+
+				<div style="width: 400px; display: inline-block;">   
+					<canvas id="inadimplencia"></canvas>
+				</div>
+				<div>
+					<script>
+						const ctxr = document.getElementById('receita');
+						new Chart(ctxr, {
+						type: 'bar',
+						data: {
+							labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+							datasets: [{
+							label: 'Receitas',
+							data: [12, 19, 3, 5, 2, 3],
+							borderColor: '#43CD80',
+							backgroundColor: '#43CD80',
+							borderWidth: 1
+							}]
+						},
+						options: {
+							scales: {
+							y: {
+								beginAtZero: true
+							}
+							}
+						}
+						});
+						</script>  
+				</div>
+				<div>    
+						<script>                
+						const ctxi = document.getElementById('inadimplencia');
+						new Chart(ctxi, {
+							type: 'bar',
+							data: {
+							labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+							datasets: [{
+								label: 'Inadimplência',
+								data: [22, 15, 8, 12, 4, 9],
+								borderColor: '#CD5B45',
+							backgroundColor: '#CD5B45',
+								borderWidth: 1
+							}]
+							},
+							options: {
+							scales: {
+								y: {
+								beginAtZero: true
+								}
+							}
+							}
+						});
+					</script> 
+				</div>
+
+<!---------------------------Informações das notas item a item em linha--------------------------> 	
+					<div class="main-content">
+						<div class="row">
+							<div class="col-md-12">
+							<div class="table-wrapper">
+								
+							<div class="table-title">
+								<div class="row">
+									<div class="col-sm-6 p-0 flex justify-content-lg-start justify-content-center">
+										<h2 class="ml-lg-2">Informações</h2>
+									</div>
+									
+								</div>
+							</div>
+							
+							<table class="table table-striped table-hover">
+								<thead>
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="selectAll">
+									<label for="selectAll"></label></th>
+									<th>Nota</th>
+									<th>Nome</th>
+									<th>Emissão</th>
+									<th>Vencimento</th>
+									<th>Valor R$</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="checkbox1" name="option[]" value="1">
+									<label for="checkbox1"></label></th>
+									<th>10</th>
+									<th>Luiz</th>
+									<th>01/01/2023</th>
+									<th>01/02/2023</th>
+									<th>100,00</th>
+									<th>
+										<a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									<i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									</a>
+									</th>
+									</tr>
+									
+									
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="checkbox2" name="option[]" value="1">
+									<label for="checkbox2"></label></th>
+									<th>12</th>
+									<th>Marcelo</th>
+									<th>01/03/2023</th>
+									<th>01/04/2023</th>
+									<th>200,00</th>
+									<th>
+										<a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									<i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									</a>
+									
+									</th>
+									</tr>
+
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="checkbox3" name="option[]" value="1">
+									<label for="checkbox3"></label></th>
+									<th>15</th>
+									<th>Lovato</th>
+									<th>01/05/2024</th>
+									<th>01/06/2024</th>
+									<th>300,00</th>
+									<th>
+										<a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									<i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									</a>
+									
+									</th>
+									</tr>
+									
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="checkbox4" name="option[]" value="1">
+									<label for="checkbox4"></label></th>
+									<th>18</th>
+									<th>Mota</th>
+									<th>01/07/2024</th>
+									<th>01/08/2024</th>
+									<th>100,00</th>
+									<th>
+										<a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									<i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									</a>
+									
+									</th>
+									</tr>
+									
+									<tr>
+									<th><span class="custom-checkbox">
+									<input type="checkbox" id="checkbox5" name="option[]" value="1">
+									<label for="checkbox5"></label></th>
+									<th>20</th>
+									<th>Guilherme</th>
+									<th>01/09/2024</th>
+									<th>01/010/2024</th>
+									<th>400,00</th>
+									<th>
+										<a href="#editEmployeeModal" class="edit" data-toggle="modal">
+									<i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+									</a>
+									
+									</th>
+									</tr>
+									
+								</tbody>
+								
+								
+							</table>
+
+<!-----------------------------------Mostrar mais páginas, caso tenha----------------------------------->
+							<div class="clearfix">
+								<div class="hint-text">Mostrando <b>5</b> de <b>25</b></div>
+								<ul class="pagination">
+									<li class="page-item disabled"><a href="#">Anterior</a></li>
+									<li class="page-item "><a href="#"class="page-link">1</a></li>
+									<li class="page-item "><a href="#"class="page-link">2</a></li>
+									<li class="page-item active"><a href="#"class="page-link">3</a></li>
+									<li class="page-item "><a href="#"class="page-link">4</a></li>
+									<li class="page-item "><a href="#"class="page-link">5</a></li>
+									<li class="page-item "><a href="#" class="page-link">Próximo</a></li>
+								</ul>
+							</div>
+							
+
+<!------------------------Visualizar notas do modal------------------------->
+				<div class="modal fade" tabindex="-1" id="editEmployeeModal" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">N° da nota</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<label>Name</label>
+					<input type="text" class="form-control" required> 
+				</div>
+				<div class="form-group">
+					<label>data da Emissão</label>
+					<input type="date" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Data do Vencimento</label>
+					<input type="date" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Data do Pagamento</label>
+					<input type="date" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Valor da nota</label>
+					<input type="number" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Documento da nota</label>
+					<input type="number" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Documento do boleto</label>
+					<input type="number" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Status da nota</label>
+					<input type="text" class="form-control" required>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-success">Save</button>
+			</div>
+		</div>							
+					
+<!------------------------footer-------------------->			
+				<footer class="footer">
+					<div class="container-fluid">
+						<div class="footer-in">
+							<p class="mb-0">Desenvolvido por Luiz Marcelo Mota</p>
+						</div>
+					</div>
+				</footer>
+									
+<!-------------------------- JavaScript ------------------------>
+<!----------------- jQuery, then Popper.js, then Bootstrap JS ----------------->
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".xp-menubar").on('click',function(){
+					$("#sidebar").toggleClass('active');
+					$("#content").toggleClass('active');
+				});
+				
+				$('.xp-menubar,.body-overlay').on('click',function(){
+					$("#sidebar,.body-overlay").toggleClass('show-nav');
+				});
+				
+			});
+		</script>
+	</body> 
+</html>
+
+
