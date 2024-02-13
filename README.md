@@ -1,7 +1,7 @@
 # DASHBOARD FINANCEIRO
 O bjetivo desse projeto foi criar um dashboard financeiro para visualizar informações em gráficos e cards e notas na tela de maneira rápida e intuitiva.
 
-Para criação dessa aplicaçãofoi utilizado:
+Para criação dessa aplicação foi utilizado:
 
 * HTML
 * CSS
@@ -23,11 +23,11 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # No dashboard são essas as informações que iram aparecer 
 
-1- menu lateral
+* Menu lateral
 
-2- header com campo de pesquisa, esconder menu, informações do usuário.
+* Header com campo de pesquisa, esconder menu, informações do usuário.
 
-3- e a página principal com as informações de cards, gráficos e notas.
+* Página principal com as informações de cards, gráficos e notas.
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
 
