@@ -15,6 +15,14 @@ https://www.chartjs.org/
 
 https://www.youtube.com/watch?v=FpGaoNpgscg
 
+# Na página são essas as informações que iram aparecer 
+1- menu lateral
+2- header com campo de pesquisa, esconder menu, informações do usuário
+3- e a página principal com as informações de cards, gráficos e notas.
+
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
+
+
 
 
 
