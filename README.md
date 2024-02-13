@@ -51,23 +51,18 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # Nesse trecho de código, os cards com informações iram aparecer na tela.
 
-○ Valor total das notas emitidas;
-
-○ Valor total das notas emitidas, mas sem ter a cobrança feita;
-
-○ Valor total das notas vencidas - Inadimplência;
-
-○ Valor total das notas a vencer;
-
-○ Valor total das notas pagas;
+* Valor total das notas emitidas;
+* Valor total das notas emitidas, mas sem ter a cobrança feita;
+* Valor total das notas vencidas - Inadimplência;
+* Valor total das notas a vencer;
+* Valor total das notas pagas;
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/d1e4bc95-7cd0-453e-8732-75bb4609858c)
 
 # Neste trecho de código foi criado dois gráficos com a receita e inadimplência mensal
 
-○ Gráfico de evolução da inadimplência mês a mês;
-
-○ Gráfico de evolução da receita recebida mês a mês;
+* Gráfico de evolução da inadimplência mês a mês;
+* Gráfico de evolução da receita recebida mês a mês;
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/d61ab469-7091-47a3-9c2d-8b24747583b0)
 
