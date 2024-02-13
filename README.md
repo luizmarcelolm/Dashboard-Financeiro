@@ -82,6 +82,7 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 * Pagamento em atraso;
 * Pagamento realizado;
 
+ ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/dec1c18b-2acc-4466-a914-770955b56323)
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/8d7c9628-098b-441d-991e-9b23650de19b)
 
 
