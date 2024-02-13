@@ -73,20 +73,19 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # Nessa parte foi criado um modal para visualizar todas as informações das notas.
 
-■ Nome do pagador;
-■ Número de identificação da nota;
-■ Data de emissão da nota;
-■ Data da cobrança;
-1
-■ Data do pagamento;
-■ Valor da nota;
-■ Documento da nota fiscal;
-■ Documento do boleto bancário;
-■ Status da nota;
-● Emitida;
-● Cobrança realizada;
-● Pagamento em atraso;
-● Pagamento realizado;
+* Nome do pagador;
+* Número de identificação da nota;
+* Data de emissão da nota;
+* Data da cobrança;
+* Data do pagamento;
+* Valor da nota;
+* Documento da nota fiscal;
+* Documento do boleto bancário;
+* Status da nota;
+* Emitida;
+* Cobrança realizada;
+* Pagamento em atraso;
+* Pagamento realizado;
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/8d7c9628-098b-441d-991e-9b23650de19b)
 
