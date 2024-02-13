@@ -63,6 +63,36 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/d1e4bc95-7cd0-453e-8732-75bb4609858c)
 
+# Neste trecho de código foi criado dois gráficos com a receita e inadimplência mensal
+
+○ Gráfico de evolução da inadimplência mês a mês;
+
+○ Gráfico de evolução da receita recebida mês a mês;
+
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/d61ab469-7091-47a3-9c2d-8b24747583b0)
+
+# Nessa parte foi criado um modal para visualizar todas as informações das notas.
+
+■ Nome do pagador;
+■ Número de identificação da nota;
+■ Data de emissão da nota;
+■ Data da cobrança;
+1
+■ Data do pagamento;
+■ Valor da nota;
+■ Documento da nota fiscal;
+■ Documento do boleto bancário;
+■ Status da nota;
+● Emitida;
+● Cobrança realizada;
+● Pagamento em atraso;
+● Pagamento realizado;
+
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/8d7c9628-098b-441d-991e-9b23650de19b)
+
+
+
+
 
 
 
