@@ -1,9 +1,9 @@
 # Dashboard financeiro
-Projeto de um dashboard fianceiro criado para visualizar informações em gráficos e cards na tela.
+Projeto de um dashboard financeiro criado para visualizar informações em gráficos e cards na tela.
 
 Para criação dessa aplicação utilizei HTML, CSS, boostrap, chartjs e javascript.
 
-# Utilizei essas fontes para consulta durante a criação desse projeto.
+# Utilizei essas fontes para consulta e dúvidas durante a criação desse projeto.
 
 https://getbootstrap.com/
 
@@ -21,6 +21,11 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 3- e a página principal com as informações de cards, gráficos e notas.
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
+
+# Nessa código foi criado o menu para selecionar o período das informações (mensal, trimestral e anual)
+
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/0970329d-e813-4ec8-9fc7-e64013aed11b)
+
 
 
 
