@@ -17,8 +17,11 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # Na página são essas as informações que iram aparecer 
 1- menu lateral
-2- header com campo de pesquisa, esconder menu, informações do usuário
+
+2- header com campo de pesquisa, esconder menu, informações do usuário.
+
 3- e a página principal com as informações de cards, gráficos e notas.
+
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
 
 
@@ -37,12 +40,17 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/42bfe7ab-3756-4014-8974-aae8a6c7937b)
 
 # Nesse trecho de código, os cards com informações iram aparecer na tela.
-ano. As seguintes informações devem ser mostradas no dashboard:
+
 ○ Valor total das notas emitidas;
+
 ○ Valor total das notas emitidas, mas sem ter a cobrança feita;
+
 ○ Valor total das notas vencidas - Inadimplência;
+
 ○ Valor total das notas a vencer;
+
 ○ Valor total das notas pagas;
+
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/d1e4bc95-7cd0-453e-8732-75bb4609858c)
 
 
