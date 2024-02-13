@@ -1,7 +1,13 @@
 # DASHBOARD FINANCEIRO
 O bjetivo desse projeto foi criar um dashboard financeiro para visualizar informações em gráficos e cards e notas na tela de maneira rápida e intuitiva.
 
-Para criação dessa aplicação utilizei HTML, CSS, boostrap, chartjs e javascript.
+Para criação dessa aplicaçãofoi utilizado:
+
+* HTML
+* CSS
+* BOOSTRAP
+* JAVASCRIPT
+* CHARTJS
 
 # Utilizei essas fontes para consulta e dúvidas durante a criação desse projeto.
 
