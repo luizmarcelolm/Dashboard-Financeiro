@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/0970329d-e813-4ec8-9fc7-e64013aed11b)
 
 
-# Nessa parte foi colocado um ícone para recolher menu e um campo de busca para filtrar as notas de acordo com o que deseja.
+# Nessa parte foi colocado um ícone para recolher o menu e um campo de busca para filtrar as notas de acordo com o que deseja.
 
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/2f114c9f-9cc2-460c-bcfb-2a93f5e08889)
 
