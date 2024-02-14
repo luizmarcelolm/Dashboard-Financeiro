@@ -23,13 +23,16 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # No dashboard são essas as informações que iram aparecer 
 
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ee8abc3e-2c5f-489e-9924-1a55fe570821)
+
+
 * Menu lateral
 
 * Header com campo de pesquisa, esconder menu, informações do usuário.
 
 * Página principal com as informações de cards, gráficos e notas.
 
-![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
+
 
 
 # Nessa código foi criado o menu para selecionar o período das informações (mensal, trimestral e anual)
