@@ -23,8 +23,7 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # No dashboard são essas as informações que iram aparecer 
 
-![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ee8abc3e-2c5f-489e-9924-1a55fe570821)
-
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/8bc10239-4268-44a5-a083-55217c761d52)
 
 * Menu lateral
 
