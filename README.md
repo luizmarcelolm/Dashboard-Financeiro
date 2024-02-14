@@ -9,7 +9,7 @@ Para criação dessa aplicação foi utilizado:
 * JAVASCRIPT
 * CHARTJS
 
-# Utilizei essas fontes para consulta e dúvidas durante a criação desse projeto.
+# Utilizei essas fontes para consulta e durante a criação desse projeto.
 
 https://getbootstrap.com/
 
