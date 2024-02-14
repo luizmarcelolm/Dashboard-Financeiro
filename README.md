@@ -23,13 +23,16 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # No dashboard são essas as informações que iram aparecer 
 
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ee8abc3e-2c5f-489e-9924-1a55fe570821)
+
+
 * Menu lateral
 
 * Header com campo de pesquisa, esconder menu, informações do usuário.
 
 * Página principal com as informações de cards, gráficos e notas.
 
-![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/ae61232a-4a8b-414a-aebb-8a84135d700c)
+
 
 
 # Nessa código foi criado o menu para selecionar o período das informações (mensal, trimestral e anual)
@@ -85,8 +88,13 @@ https://www.youtube.com/watch?v=FpGaoNpgscg
  ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/dec1c18b-2acc-4466-a914-770955b56323)
 ![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/8d7c9628-098b-441d-991e-9b23650de19b)
 
+# Nesse trecho de código foi criado uma tabela html estática simulando as informações das notas, e utilizando data table para fazer filtro das notas.
 
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/976cd0ff-5a7e-435c-a19b-d8db84b3433c)
 
+# Aqui é possível desabilitar funções data table, deixando de acordo com o que você precisa.
+
+![image](https://github.com/luizmarcelolm/Dashboard-Financeiro/assets/109484017/222c1e7f-493a-4332-beab-f79ecd4d9d3f)
 
 
 
