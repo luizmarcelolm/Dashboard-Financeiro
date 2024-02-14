@@ -19,6 +19,8 @@ https://developer.mozilla.org/pt-BR/docs/learn/getting_started_with_the_web/html
 
 https://www.chartjs.org/
 
+https://cdn.datatables.net/
+
 https://www.youtube.com/watch?v=FpGaoNpgscg
 
 # No dashboard são essas as informações que iram aparecer 
