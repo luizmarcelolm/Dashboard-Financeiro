@@ -1,7 +1,7 @@
 # DASHBOARD FINANCEIRO
 O bjetivo desse projeto foi criar um dashboard financeiro para visualizar informações em gráficos e cards e notas na tela de maneira rápida e intuitiva.
 
-Deploy do prpjeto https://luizmarcelolm.github.io/Dashboard-Financeiro/
+Deploy do projeto https://luizmarcelolm.github.io/Dashboard-Financeiro/
 
 Para criação dessa aplicação foi utilizado:
 
