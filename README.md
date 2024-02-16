@@ -5,12 +5,12 @@ Deploy do projeto https://luizmarcelolm.github.io/Dashboard-Financeiro/
 
 Para criação dessa aplicação foi utilizado:
 
-* HTML
-* CSS
-* BOOSTRAP
+* HTML 5
+* CSS 3
+* BOOSTRAP 5
 * JAVASCRIPT
-* CHARTJS
-* VISUAL STUDIO CODE
+* CHARTJS VERSÃO 4.4.1
+* VISUAL STUDIO CODE VERSÃO 1.86.1
 
 # Utilizei essas fontes para consulta e durante a criação desse projeto.
 
