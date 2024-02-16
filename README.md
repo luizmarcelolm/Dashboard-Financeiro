@@ -10,6 +10,7 @@ Para criação dessa aplicação foi utilizado:
 * BOOSTRAP
 * JAVASCRIPT
 * CHARTJS
+* VISUAL STUDIO CODE
 
 # Utilizei essas fontes para consulta e durante a criação desse projeto.
 
